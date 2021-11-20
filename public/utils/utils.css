@@ -1,0 +1,41 @@
+.dark-glass-bg {
+  background: linear-gradient(
+    115deg,
+    rgba(13, 17, 21, 0.25) 0%,
+    rgba(13, 17, 21, 0.75) 24%,
+    rgb(13, 17, 21) 25%,
+    rgb(13, 17, 21) 100%
+  );
+  background-size: 414% 414%;
+  backdrop-filter: blur(4px);
+  transition: all 0.45s;
+}
+.active-black {
+  background-position: 100% 100%;
+}
+.open-menu {
+  backdrop-filter: blur(4px) saturate(120%);
+  -webkit-backdrop-filter: blur(4px) saturate(120%);
+  /*background: rgba(255, 255, 255, 0.25) !important;*/
+  width: 20% !important;
+  left: 0 !important;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
