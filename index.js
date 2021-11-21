@@ -12,4 +12,4 @@ app.use(serve('./public'));
 app.use(render)
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(PORT, ()=>{console.log(`abriu em ${PORT}`)})
+app.listen(PORT, ()=>{console.log(`server abriu em ${PORT}`)})

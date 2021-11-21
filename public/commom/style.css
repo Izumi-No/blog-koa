@@ -5,14 +5,17 @@ html {
   scroll-behavior: smooth;
 }
 
-
+:root{
+	--tamanho-sidebar: 20%;
+	
+}
 
 #navbar {
   border-radius: 0 0 0.5rem 0.5rem;
   z-index: 100;
 }
 #navmenu {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(19, 21, 24, 0.95);
   height: 98vh;
   width: 0;
   z-index: 0;
@@ -28,14 +31,18 @@ html {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
