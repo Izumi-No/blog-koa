@@ -12,6 +12,7 @@ model User {
   username  String		 @unique
   isAdmin   Boolean   @default(false)
 	createdAt DateTime  @default(now())
+	passHash  String    
   posts     Post[]
   comment   comment[]
 	profile   Profile?

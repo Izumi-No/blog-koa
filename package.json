@@ -12,7 +12,9 @@
   "dependencies": {
     "@prisma/client": "^3.5.0",
     "@prisma/sdk": "^3.5.0",
+    "bcrypt": "^5.0.1",
     "ejs": "^3.1.6",
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
